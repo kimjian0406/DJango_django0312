@@ -1,0 +1,19 @@
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Python virtual environments
+.pyenv/
+
+# Ignore project folders you don't want to track
+Desktop/
+Documents/
+Downloads/
+Library/
+Pictures/
+PycharmProjects/
+

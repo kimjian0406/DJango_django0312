@@ -1,0 +1,676 @@
+nano base.html
+nano todo_list.html
+nano todo_info.html
+git add .\
+git commit -m "âƒ¼¨feat: ëƒ´ƒ´ìƒ¾ƒ°ìƒ½¸ ê°ƒ¼ìƒ¤ƒ€ ë°ƒ¯ ìƒª¤íƒ£€ìƒ½¼ë§ ì¶ƒ´ê°€"\
+git push origin chapter_04\
+
+git checkout main
+git checkout main\
+
+git merge chapter_04\
+
+git status\
+
+git add .\
+git commit -m "âƒ¼¨feat: chapter_04 ë¸ƒ¬ëƒ¾ƒ¼ì¹ƒ¸ ìƒ¨ƒ¸ìƒ€ƒµì‚¬íƒµ­"\
+git push origin chapter_04\
+
+git remote -v\
+
+git remote set-url origin https://github.com/kimjian0406/DJango_django0312.git\
+
+git push origin chapter_04\
+
+git branch\
+
+git checkout -b chapter_04\
+
+git add .\
+git commit -m "âƒ¼¨feat: chapter_04 ìƒª¤íƒ£€ìƒ½¼ ì¶ƒ´ê°€"\
+
+git add .\
+git commit -m "âƒ¼¨feat: chapter_04 ìƒª¤íƒ£€ìƒ½¼ ì¶ƒ´ê°€"\
+
+git push origin chapter_04\
+
+git pull origin chapter_04\
+
+git add .\
+git commit -m "fix: resolve merge conflicts"\
+
+git push origin chapter_04\
+
+git pull origin chapter_04\
+
+git add .\
+git commit -m "ìƒ¾ƒ±ìƒ·ƒ¥ ë‚´ìƒº© ìƒ€€ìƒ¾¥"\
+
+git stash pop\
+
+git pull origin chapter_04\
+
+git fetch origin\
+git reset --hard origin/chapter_04\
+
+git checkout chapter_04\
+
+git add .\
+git commit -m "âƒ¼¨feat: style improvements"\
+
+git push origin chapter_04
+git push origin chapter_04
+git status
+git status
+git add .\
+git commit -m "âƒ¼¨feat: ìƒª¤íƒ£€ìƒ½¼ ê°ƒ¼ìƒ¤ƒ€"\
+
+git push origin chapter_04\
+
+git status\
+
+git add .\
+
+git commit -m "âƒ¼¨feat: ìƒª¤íƒ£€ìƒ½¼ ê°ƒ¼ìƒ¤ƒ€"\
+
+git status\
+
+git add .\
+
+sudo chmod -R 755 <íƒ¬ƒ¬ìƒ½¼/ëƒ´ƒ´ëƒ€ƒ©íƒ¦ƒ€ë¦¬ ê²½ëƒƒ¼>\
+
+git rm --cached Desktop/flasktest0227\
+git rm --cached Django0307\
+
+ls Desktop\
+ls Django0307\
+
+sudo chmod -R 777 "Library/Application Support/FileProvider/"\
+
+sudo chmod -R 777 "Library/Application Support/FileProvider/"\
+
+git status\
+
+git add .\
+
+git status\
+
+git add .\
+
+git commit -m "Fix permissions and clean up files"\
+
+git status\
+
+git add .\
+
+git rm --cached Desktop/flasktest0227\
+git rm --cached Django0307\
+
+ls Desktop/flasktest0227\
+ls Django0307\
+
+git rm -r --cached Desktop/flasktest0227\
+git rm -r --cached Django0307\
+
+git status\
+
+git add Desktop\
+git add Django0307\
+
+Desktop/\
+Django0307/\
+
+git rm --cached -r Desktop\
+git rm --cached -r Django0307\
+
+git checkout main\
+echo "Desktop/" >> .gitignore\
+echo "Django0307/" >> .gitignore\
+git add .gitignore\
+git commit -m "Add .gitignore"\
+git push origin main\
+
+git pull origin main\
+
+<<<<<<< HEAD\
+ëƒƒ¼ì»¬ ë³€ê²½ ë‚´ìƒº©\
+=======\
+ìƒ»ƒ°ê²© ë³€ê²½ ë‚´ìƒº©\
+>>>>>>> cb0a1260... Initial commit\
+
+ HEAD\
+ëƒƒ¼ì»¬ ë³€ê²½ ë‚´ìƒº©\
+\
+ìƒ»ƒ°ê²© ë³€ê²½ ë‚´ìƒº©\
+ cb0a1260... Initial commit\
+
+git rebase --continue\
+
+git add README.md\
+
+git rebase --continue\
+
+rm ~/.git/.COMMIT_EDITMSG.swp\
+
+git rebase --continue\
+
+\:wq
+git rebase --continue\
+
+ps aux | grep vim\
+
+kill -9 <PID>\
+
+kill -9 <PID>\
+
+rm ~/.git/.COMMIT_EDITMSG.swp\
+
+git rebase --continue\
+
+git branch\
+
+git push origin chapter_04\
+
+git branch\
+
+git add .\
+
+git branch\
+
+git rebase --continue\
+
+git rebase --abort\
+
+git push origin chapter_04\
+
+git push origin chapter_04\
+
+git config --global credential.helper store\
+
+git push
+git push --set-upstream origin chapter_04\
+
+mkdir cbtodo\
+cd cbtodo\
+
+django-admin startproject cbtodo .\
+
+poetry shell\
+
+poetry show django\
+
+poetry add django\
+
+poetry --version\
+
+curl -sSL https://install.python-poetry.org | python3 -\
+
+echo $HOME/.local/bin
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc\
+source ~/.zshrc\
+
+poetry --version\
+
+poetry init\
+poetry add django\
+poetry shell 
+django-admin startproject cbtodo .\
+
+poetry shell\
+
+poetry show django\
+
+django-admin --version\
+
+poetry run django-admin startproject cbtodo .\
+
+poetry shell\
+
+poetry add django\
+
+poetry env activate\
+
+poetry run django-admin startproject cbtodo .\
+
+mkdir new_cbtodo\
+cd new_cbtodo\
+poetry run django-admin startproject cbtodo .\
+
+rm manage.py\
+poetry run django-admin startproject cbtodo .\
+
+rm -rf cbtodo/*\
+poetry run django-admin startproject cbtodo .\
+
+rm -rf cbtodo/*\
+
+poetry run django-admin startproject cbtodo .\
+
+rm -rf cbtodo/manage.py cbtodo/*\
+
+rm -rf cbtodo/*\
+
+poetry run django-admin startproject cbtodo .\
+
+rm -rf /Users/ilaon/cbtodo/new_cbtodo\
+
+mkdir /Users/ilaon/cbtodo/new_cbtodo\
+cd /Users/ilaon/cbtodo/new_cbtodo\
+poetry run django-admin startproject cbtodo .\
+
+new_cbtodo/\
+âƒ´ƒ¼âƒ´€âƒ´€ cbtodo/\
+âƒ´‚   âƒ´ƒ¼âƒ´€âƒ´€ __init__.py\
+âƒ´‚   âƒ´ƒ¼âƒ´€âƒ´€ settings.py\
+âƒ´‚   âƒ´ƒ¼âƒ´€âƒ´€ urls.py\
+âƒ´‚   âƒ´ƒ¼âƒ´€âƒ´€ wsgi.py\
+âƒ´ƒ¼âƒ´€âƒ´€ manage.py\
+
+poetry run python manage.py runserver\
+
+poetry run python manage.py migrate\
+
+poetry run python manage.py runserver\
+
+Starting development server at http://127.0.0.1:8000/\
+Quit the server with CONTROL-C.\
+
+nano cb_views.py
+nano views.py
+nano TodoListView
+nano TodoDetailView 
+nano TodoCreateView
+nano TodoUpdateView
+nano TodoDeleteView
+nano urls.py
+git init\
+
+git remote add origin https://github.com/kimjian0406/Django0313.git
+git checkout -b chapter_05\
+
+git add .\
+git commit -m "Implement Todo CRUD views with CBV"\
+
+git push -u origin chapter_05\
+
+git push -u origin chapter_05\
+
+git branch\
+
+git checkout -b chapter_05\
+
+git status\
+
+git push -u origin chapter_05\
+
+git status\
+
+git add .\
+
+sudo rm -rf /Users/ilaon/Library/Saved\ Application\ State/com.installbuilder.appinstaller.savedState/\
+
+git status\
+
+git add .\
+
+git commit -m "ë³€ê²½ ì‚¬íƒµ­ ìƒ¤¤ëªƒ¥"\
+
+git status\
+
+echo $LANG\
+
+nano ~/.zshrc\
+
+source ~/.zshrc\
+
+git status\
+
+git add .\
+
+git commit -m "ë³€ê²½ ì‚¬íƒµ­ ìƒ¤¤ëªƒ¥"\
+
+git push -u origin chapter_05\
+
+export LANG=ko_KR.UTF-8\
+
+nano ~/.zshrc\
+
+source ~/.zshrc\
+
+git checkout -b chapter_05\
+
+git checkout -b chapter_05\
+
+git checkout chapter_05\
+
+git branch\
+
+git branch -m git-checkout--b-chapter_05 chapter_05\
+
+git branch\
+
+git push origin chapter_05\
+
+git status\
+
+git add .\
+
+git status\
+
+git config --global i18n.commitEncoding utf-8\
+git config --global i18n.logOutputEncoding utf-8\
+git config --global core.quotepath off\
+git config --global user.language ko\
+
+git status\
+
+no changes added to commit (use "git add" and/or "git commit -a")\
+ilaon@ilaon-ui-MacBookPro ~ % 
+git status\
+
+git add .\
+
+git push origin chapter_05\
+
+git status\
+
+git add .\
+
+git add .\
+
+git push origin chapter_05\
+
+git status\
+
+git status\
+
+git add .\
+
+git status\
+
+git add .
+git add .\
+git commit -m "Commit message"\
+git push origin main\
+
+nano ~/.ssh/config\
+
+ git push
+git pull origin chapter_05\
+
+git add .\
+git commit -m "Save changes before pulling"\
+
+git add .\
+git commit -m "Save changes before pulling"\
+
+git add .\
+git commit -m "Save changes before pulling"\
+
+git status\
+
+git status\
+
+git add .\
+
+git add .\
+
+git push origin chapter_05\
+
+.DS_Store\
+
+ssh-keygen -t rsa -b 4096 -C "oheunsuhhy3@naver.com"
+cat ~/.ssh/id_rsa.pub\
+
+cat ~/.ssh/id_rsa.pub\
+
+rm ~/.ssh/id_rsa ~/.ssh/id_rsa.pub\
+
+ssh-keygen -t rsa -b 2048 -C "oheunsuhhy3@naver.com"
+cat ~/.ssh/id_rsa.pub\
+
+cat ~/.ssh/id_rsa.pub\
+
+git remote set-url origin https://github.com/kimjian0406/Django0313.git
+git add .\
+git commit -m "Commit message"\
+git push origin main\
+
+git add .\
+git commit -m "Save changes before pulling"\
+
+git status\
+
+git add .\
+git commit -m "Your commit message"\
+
+git commit -m "Your commit message"\
+
+reset\
+
+git status\
+
+git status\
+
+cd /path/to/your/project\
+
+cd /Users/ilaon/cbtodo/new_cbtodo\
+
+touch .gitignore\
+
+nano .gitignore
+git add .gitignore\
+git commit -m "Add .gitignore file"\
+git push\
+
+git push --set-upstream origin chapter_05\
+
+git pull origin chapter_05\
+
+git pull origin chapter_05\
+
+git config pull.rebase false\
+
+git pull origin chapter_05\
+
+git push origin chapter_05\
+
+git pull origin chapter_05 --allow-unrelated-histories\
+
+git push origin chapter_0
+git push origin chapter_05
+git pull origin chapter_05 --allow-unrelated-histories\
+
+git add .\
+git commit -m "Save local changes"\
+
+git add .\
+git commit -m "Save local changes"\
+
+git pull
+git add .\
+git commit -m "Save local changes"\
+
+git status\
+
+git add .\
+git commit -m "ë³€ê²½ ì‚¬íƒµ­ ì»¤ë°ƒ«"\
+
+git pull origin chapter_05 --allow-unrelated-histories\
+
+git pull origin chapter_05 --allow-unrelated-histories\
+
+git status\
+
+git stash\
+
+git pull origin chapter_05 --allow-unrelated-histories\
+
+git push origin chapter_05\
+
+git reset --hard\
+
+git pull origin chapter_05 --allow-unrelated-histories\
+
+git push origin chapter_05\
+
+git status\
+
+git add .\
+
+git rm --cached Desktop/flasktest0227\
+git rm --cached Django0307\
+
+git rm --cached Desktop/flasktest0227\
+git rm --cached Django0307\
+
+git status\
+
+git rm --cached path/to/your/directory\
+
+git status\
+
+git rm --cached Desktop/flasktest0227\
+
+git commit -m "Remove unnecessary directories
+cd /path/to/your/new_cbtodo\
+
+pwd\
+
+cd ~/new_cbtodo\
+
+ls\
+
+mkdir my_new_project\
+cd my_new_project\
+
+git init\
+
+echo "# My New Project" > README.md\
+git add README.md\
+git commit -m "Initial commit"\
+git branch -M main\
+git remote add origin https://github.com/kimjian0406/Django0313.git\
+git push -u origin main\
+
+git pull origin main --rebase\
+
+git add README.md\
+
+git rebase --continue\
+
+git push origin main\
+
+git add README.md\
+
+git rebase --continue\
+
+git status
+git add .\
+
+git rm --cached Desktop/flasktest0227\
+git rm --cached Django0307\
+
+ls Desktop\
+
+git status\
+
+# íƒ¯´ëƒ­ƒ´ ë°ƒ¯ íƒ¬ƒ¬ìƒ½¼ ë¬´ìƒ«ƒ¼\
+flasktest0227/\
+oz_assignment/\
+*.png\
+
+\
+flasktest0227/\
+oz_assignment/\
+*.png\
+
+git rm --cached flasktest0227/\
+git rm --cached oz_assignment/\
+git rm --cached *.png\
+
+git add .gitignore\
+git commit -m "Add .gitignore to exclude unwanted files"\
+git push origin main\
+
+git pull origin main --rebase\
+
+git push origin main\
+
+git pull origin main --rebase\
+
+git push origin main\
+
+git push --force origin main\
+
+git status\
+
+git commit -m "Add new files for today"\
+
+git add .\
+
+git commit -m "Add today's files"\
+
+git status\
+
+git add .\
+
+[200~git rm --cached Django0307
+~git rm --cached Django0307\
+
+git --version\
+
+which git\
+
+source ~/.zshrc\
+
+git
+cd /Users/ilaon/my_new_project
+git status\
+
+git add .\
+
+git commit -m "Your commit message"\
+
+git checkout main\
+
+git push origin main\
+
+git pull origin main --rebase\
+
+git push origin main\
+
+git pull origin main --rebase\
+
+git add <conflicted-files>\
+git rebase --continue\
+
+git add <conflicted-files>\
+git rebase --continue\
+
+git push origin main\
+
+git pull origin main --rebase\
+
+git rebase --abort\
+
+rm -fr .git/rebase-merge\
+
+git pull origin main --rebase\
+
+git pull origin main --rebase\
+
+git add README.md\
+
+git rebase --continue\
+
+git add README.md\
+
+git rebase --continue\
+
+fatal: fatal: No rebase in progress?\
+ilaon@ilaon-ui-MacBookPro ~ % 
+ git status\
+
+git commit -m "Resolved merge conflict in README.md"\
+

@@ -1,0 +1,41 @@
+from django.db import models
+from PIL import Image
+from io import BytesIO
+from django.core.files.uploadedfile import InMemoryUploadedFile
+import os
+from pathlib import Path
+
+class Todo(models.Model):
+    title = models.CharField(max_length=255)
+    completed_image = models.ImageField(upload_to='completed_images/', null=True, blank=True)
+    thumbnail = models.ImageField(upload_to='thumbnails/', null=True, blank=True, default='default_thumbnail.png')
+    
+    def save(self, *args, **kwargs):
+        # 이미지가 있는 경우 썸네일을 생성
+        if self.completed_image:
+            # Pillow의 Image를 사용하여 이미지 객체를 생성
+            img = Image.open(self.completed_image)
+
+            # 썸네일 생성
+            img.thumbnail((100, 100))  # 원하는 썸네일 크기로 설정 (예: 100x100)
+
+            # 파일 확장자 구하기
+            file_name, file_extension = os.path.splitext(self.completed_image.name)
+            file_type = file_extension.lower()
+
+            # 썸네일 파일 이름 만들기
+            thumbnail_name = f"{file_name}_thumbnail{file_extension}"
+            thumbnail_path = Path(self.completed_image.name).parent / thumbnail_name
+
+            # BytesIO로 메모리 내에 임시파일 생성
+            thumbnail_io = BytesIO()
+            img.save(thumbnail_io, format='PNG')
+            thumbnail_io.seek(0)
+
+            # 임시파일을 InMemoryUploadedFile로 변환
+            self.thumbnail = InMemoryUploadedFile(thumbnail_io, None, thumbnail_name, 'image/png', thumbnail_io.tell(), None)
+
+        # 최종적으로 Todo 객체를 저장
+        super(Todo, self).save(*args, **kwargs)
+
+

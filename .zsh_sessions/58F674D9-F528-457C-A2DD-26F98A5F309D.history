@@ -1,0 +1,2121 @@
+git init
+git add app.py
+git commit -m "Initial commit: Add Flask user management routes"
+~git branch -M main\
+git remote add origin https://github.com/kimjian0406/flask0228.git\
+git push -u origin main\
+
+git --version\
+
+git init\
+
+git remote add origin https://github.com/kimjian0406/flask0228.git
+git branch -M main\
+git push -u origin main\
+
+git remote remove origin\
+
+git remote add origin https://github.com/kimjian0406/flask0228.git
+git branch -M main\
+git push -u origin main\
+
+git pull origin main --rebase\
+git push origin main\
+
+git pull origin main --rebase\
+git add .\
+git commit -m "Resolve merge conflict"\
+git push origin main\
+
+git pull origin main --rebase\
+git add .\
+git commit -m "Resolve merge conflict"\
+git push origin main\
+
+pwd\
+git status\
+
+git pull origin main --rebase\
+
+git add .\
+git commit -m "Fix merge conflicts"\
+git push origin main\
+
+cd ~/Documents/GitHub/flask0228\
+
+find ~/ -name ".git" 2>/dev/null\
+
+git rev-parse --is-inside-work-tree\
+
+cd ~/Documents/GitHub  # ë¨¼ìƒ€€ GitHub íƒ¯´ëƒ­ƒ´ëƒƒ¼ ìƒ½´ëƒ¯ƒ¹ (ìƒ·ƒ¦ìƒ¼¼ë©´ ì§ìƒ€ƒ± ìƒ½´ëƒ¯ƒ¹)\
+git clone https://github.com/kimjian0406/flask0228.git\
+cd flask0228\
+
+git status
+ls ~/Documents/GitHub\
+
+cd ~/Documents/GitHub\
+git clone https://github.com/kimjian0406/flask0228.git\
+cd flask0228\
+
+git status\
+
+nano app.py
+cd /path/to/your/project  # íƒ´ƒ¤ëƒƒ¼ìƒ€ƒ½íƒª¸ íƒ¯´ëƒ­ƒ´ëƒƒ¼ ìƒ½´ëƒ¯ƒ¹\
+git init  # Git ì´ƒ¨ê¸°íƒ¹ƒ´\
+
+cd /Users/ilaon/Documents/GitHub/flask0228\
+
+cd ~/Documents/GitHub/flask0228\
+
+cd ~/Documents/GitHub/flask0228\
+
+git init  # Git ìƒ€€ìƒ¾¥ìƒ¦ƒ¬ ì´ƒ¨ê¸°íƒ¹ƒ´ (ìƒ½´ë¯¸ ì´ƒ¨ê¸°íƒ¹ƒ´ëƒ°ƒ¸ìƒ·ƒ¨ëƒ«¤ë©´ ìƒ£ƒ½ëƒ¾µ)\
+
+git init
+git add .
+git commit -m "Initial commit with app.py and other files"\
+
+git remote add origin https://github.com/kimjian0406/flask0228.git
+git push -u origin main  # 'main' ë¸ƒ¬ëƒ¾ƒ¼ì¹ƒ¸ìƒ·ƒ° íƒ±¸ìƒ«ƒ¼\
+
+git status\
+
+git push origin main\
+
+nano app.py
+cd ~/Documents/GitHub/flask0228\
+
+git init\
+
+git add .\
+
+git commit -m "First commit with Flask app"\
+
+git remote add origin https://github.com/kimjian0406/flask0228.git\
+
+git remote -v\
+
+git push -u origin main\
+
+git pull origin main\
+
+git push origin main\
+
+git pull origin main --rebase\
+
+git add app.py 
+git rebase --continue\
+
+git push origin main\
+
+git pull origin main\
+
+git config pull.rebase false\
+git pull origin main\
+
+git config pull.rebase true\
+git pull origin main\
+
+git add README.md\
+git commit -m "Save README.md before pull"\
+
+git pull origin main\
+
+<<<<<<< HEAD\
+(ëƒƒ¼ì»¬ ë³€ê²½ ì‚¬íƒµ­)\
+=======\
+(ìƒ»ƒ°ê²© ë³€ê²½ ì‚¬íƒµ­)\
+>>>>>>> [ì»¤ë°ƒ« íƒµ´ìƒ«ƒ¼]\
+
+git rm README.md\
+
+git add .\
+git rebase --continue\
+
+git rm README.md\
+
+git rm --cached README.md\
+
+git add .\
+git rebase --continue\
+
+~/.git/.COMMIT_EDITMSG.swp\
+
+rm ~/.git/.COMMIT_EDITMSG.swp\
+
+vim -r ~/.git/COMMIT_EDITMSG\
+
+rm ~/.git/.COMMIT_EDITMSG.swp\
+
+git commit --amend\
+
+git push origin main\
+
+git pull origin main\
+
+git add .\
+git commit -m "Resolved merge conflicts"\
+
+git checkout main\
+
+git rm --cached -r Library/Saved\ Application\ State/com.installbuilder.appinstaller.savedState/\
+git rm --cached -r -Users-ilaon-oz_assignment\
+git rm --cached -r Desktop/flasktest0227\
+
+git add .\
+git commit -m "Resolved merge conflicts and removed embedded repos"\
+
+git push origin main
+git add .\
+git commit -m "Save current changes"\
+
+git pull origin main
+git rebase --continue\
+
+git rebase --abort\
+
+rm -fr .git/rebase-merge\
+
+git pull origin main
+git push origin main\
+
+git init\
+
+git remote add origin https://github.com/kimjian0406/flask0228..git
+git remote remove origin\
+
+git remote add origin https://github.com/kimjian0406/flask0228..git
+git push -u origin main\
+
+git status\
+
+git pull origin main\
+
+git status\
+
+ HEAD\
+(ëƒ«¹ìƒ«ƒ€ìƒ½ƒ¸ ë³€ê²½ ì‚¬íƒµ­)\
+\
+(ìƒ»ƒ°ê²© ìƒ€€ìƒ¾¥ìƒ¦ƒ¬ìƒ½ƒ¸ ë³€ê²½ ì‚¬íƒµ­)\
+ cb0a126... Initial commit\
+
+git push origin main\
+
+git pull --rebase origin main\
+
+git status\
+
+git add api.py\
+git add blog.db\
+git add flasktest0226/\
+
+git add .\
+
+# .gitignore ìƒ¸ƒ¨ìƒ«ƒ¼
+*.pyc
+*.log
+.DS_Store
+.vscode/
+git commit -m "Your commit message"\
+
+ HEAD\
+íƒ¸ƒ¤ìƒ¾¬ ë¸ƒ¬ëƒ¾ƒ¼ì¹ƒ¸ìƒ½ƒ¸ ë‚´ìƒº©\
+\
+ìƒ»ƒ°ê²© ìƒ€€ìƒ¾¥ìƒ¦ƒ¬ìƒ½ƒ¸ ë‚´ìƒº©\
+ origin/main\
+
+git add README.md\
+git commit -m "Resolved merge conflict in README.md"\
+
+git push origin main\
+
+git add .\
+git commit -m "Save progress"
+git rm --cached -r oz_assignment\
+
+git submodule add <url_of_the_repository> oz_assignment\
+
+git pull origin main --rebase\
+
+git add <conflicted_file>\
+git rebase --continue\
+
+git push origin main\
+
+rm -fr .git/rebase-merge\
+
+git pull origin main --rebase\
+
+git add <conflicted_file>  # ì¶©ëƒ¯ƒ¬ íƒµ´ê²° íƒ»ƒ¤ íƒµ´ëƒ«¹ íƒ¬ƒ¬ìƒ½¼ìƒ½ƒ¤ ì¶ƒ´ê°€\
+git rebase --continue      # rebase ê³ƒ¤ìƒ¦ƒ­ ì§ƒ¤íƒ¶ƒ©\
+
+git push origin main\
+
+git pull --rebase origin main\
+
+git pull --rebase origin main\
+
+git push origin main --force\
+
+git log --oneline --graph\
+
+git reset --hard HEAD~1\
+
+git push origin main --force\
+
+mkdir ìƒ£ƒ¨ëƒƒ¼ìƒº´_íƒ´ƒ¤ëƒƒ¼ìƒ€ƒ½íƒª¸_íƒ¯´ëƒ­ƒ´\
+cd ìƒ£ƒ¨ëƒƒ¼ìƒº´_íƒ´ƒ¤ëƒƒ¼ìƒ€ƒ½íƒª¸_íƒ¯´ëƒ­ƒ´\
+
+git init\
+
+touch app.py  # ëƒ¸ƒ°ëƒªƒ´ ì½ƒ´ëƒ³ƒ¼ ìƒ·ƒ°ëƒ´ƒ´íƒ¤°ëƒƒ¼ íƒ¬ƒ¬ìƒ½¼ ìƒ¾ƒ±ìƒ¤±\
+git add app.py\
+git commit -m "Initial commit with app.py"\
+
+git remote add origin https://github.com/kimjian0406/flask0228.git
+git push -u origin main\
+
+mkdir flask_user_management\
+cd flask_user_management\
+mkdir templates\
+touch app.py models.py forms.py requirements.txt templates/index.html templates/add_user.html templates/edit_user.html\
+
+Flask==2.1.1\
+Flask-SQLAlchemy==2.5.1\
+Flask-WTF==1.0.1\
+WTForms==3.0.1\
+
+mkdir flask_new_project\
+cd flask_new_project\
+
+mkdir templates static\
+touch app.py models.py forms.py requirements.txt templates/index.html templates/add_user.html templates/edit_user.html\
+
+python3 -m pip install Flask\
+
+python3 -m pip install Flask-SQLAlchemy\
+
+python3 -m pip install Flask-WTF\
+
+mkdir flask_user_management\
+cd flask_user_management\
+mkdir templates\
+touch app.py models.py forms.py requirements.txt templates/index.html templates/add_user.html templates/edit_user.html\
+
+python3 -m pip freeze > requirements.txt\
+
+nano app.py\
+
+nano models.py\
+
+nano forms.py\
+
+nano requirements.txt\
+
+nano requirements.txt\
+
+nano templates/index.html\
+
+nano templates/add_user.html\
+
+nano templates/edit_user.html\
+
+python3 app.py\
+
+git init\
+
+git add .\
+
+git commit -m "Initial commit with Flask app"\
+
+git add .\
+
+git submodule add <repository_url> Users/ilaon-oz_assignment\
+
+git rm --cached -r Users/ilaon-oz_assignment\
+git rm --cached -r Desktop/flasktest0227\
+
+# Gitìƒ·ƒ°ìƒ¤ƒ¼ ì¶ƒ´ìƒ€íƒµƒ¸ì§€ ìƒµƒªìƒ½ƒ¤ ëƒ´ƒ´ëƒ€ƒ©íƒ¦ƒ€ë¦¬ ì¶ƒ´ê°€\
+Users/ilaon-oz_assignment/\
+Desktop/flasktest0227/\
+Documents/GitHub/\
+
+git add .\
+git commit -m "Initial commit with Flask app, cleaned up unnecessary files"\
+git push -u origin main\
+
+git pull origin main --rebase\
+
+git status\
+
+git status\
+
+git status\
+
+git add README.md\
+
+git add .\
+
+git rm --cached -r oz_assignment\
+
+git submodule add https://github.com/user/repository.git oz_assignment\
+
+cd ~/Documents/GitHub/\
+git status\
+
+git add .\
+
+git commit -m "Initial commit"\
+
+git push origin main\
+
+cd ~/Documents/GitHub\
+git status\
+
+git remote -v\
+
+git remote add origin https://github.com/kimjian0406/flask0228.git\
+
+git status\
+
+git remote -v\
+
+git remote add origin https://github.com/kimjian0406/flask0228.git\
+
+git remote -v\
+
+git remote set-url origin https://github.com/kimjian0406/flask0228.git\
+
+git remote -v\
+
+git push origin main\
+
+git remote remove origin\
+git remote add origin https://github.com/kimjian0406/flask0228.git\
+
+git push origin main\
+
+git pull origin main --rebase\
+
+git push origin main\
+
+git status\
+
+git add .\
+git commit -m "Add project files"\
+git push origin main\
+
+git status\
+
+git rm --cached flask0228\
+git add .\
+git commit -m "Fix submodule issue"\
+git push origin main\
+
+git rm --cached flask0228\
+
+rm .gitmodules\
+
+git add .\
+git commit -m "Remove submodule and add files"\
+
+git push origin main\
+
+git rm --cached flask0228\
+
+rm .gitmodules\
+
+git rm --cached flask0228\
+
+git submodule deinit -f flask0228\
+
+git rm --cached flask0228\
+
+git submodule deinit -f flask0228\
+
+git rm --cached flask0228\
+
+rm .gitmodules\
+
+git status\
+
+git commit -m "Remove flask0228 submodule"\
+
+git add flask0228/*\
+
+git commit -m "Add flask0228 files"\
+
+git push origin main\
+
+git status\
+
+git add templates/index.html\
+git add templates/add_user.html\
+git add templates/edit_user.html\
+
+ls templates/\
+
+mkdir templates\
+
+touch templates/index.html\
+
+nano templates/index.html
+nano add_user.html
+nano edit_user.html
+git add templates/\
+
+git commit -m "Add HTML templates for user management"\
+git push origin main\
+
+git status\
+
+git add .\
+git commit -m "Add templates directory and index.html"\
+git push origin main\
+
+git status\
+
+git add .\
+git commit -m "Add templates directory and index.html"\
+git push origin main\
+
+git status\
+
+git add flask0228\
+
+git add .\
+
+git commit -m "Fix issue with flask0228 and add templates"\
+
+git add flask0228\
+
+git add .\
+
+git commit -m "Fix flask0228 and add templates"\
+
+git push origin main\
+
+git add flask0228\
+
+git commit -m "Fix flask0228 and add templates"\
+
+git add flask0228\
+
+git commit -m "Fix flask0228 and add templates"\
+
+git push origin main\
+
+git add flask0228.\
+
+nano add user
+nano add_user.html
+nano add new.html
+nano edit_user.html
+nano edit user
+git status\
+
+git add edit_user.html flask0228 add edit\
+
+git commit -m "Add edit_user.html and other changes"\
+
+git push origin main\
+
+flask run\
+
+export FLASK_ENV=development  # ê°ƒ¼ë°ƒ¼ íƒ¹ƒ¸ê²½ ìƒ¤¤ìƒ€ƒµ\
+flask run                     # Flask ìƒµƒ€íƒ´ƒ¬ë¦¬ì¼€ìƒ½´ìƒ¥ƒ¸ ìƒ«¤íƒ¶ƒ©\
+
+export FLASK_ENV=developmet\
+flask run                     
+mkdir instagram-api\
+cd instagram-api\
+
+pip install Flask Flask-RESTful\
+
+nano app.pyy
+flask run\
+
+mv app.pyy app.py\
+
+ls\
+
+export FLASK_APP=app.py\
+
+flask run\
+
+pip install flask-restful\
+
+pip3 --version\
+
+pip3 install flask-restful\
+
+nano app.py
+nano new_feature.py
+git status\
+
+git add new_feature.py\
+
+git commit -m "Add new feature for Instagram API"\
+
+git push origin main\
+
+git pull origin main\
+
+git rebase --continue\
+
+git pull origin main\
+git push origin main\
+
+git pull origin main\
+
+git push origin main\
+
+git pull origin main --rebase\
+
+git log --oneline --graph --decorate --all\
+
+git push origin main\
+
+git pull origin main\
+
+git add <file>\
+git commit -m "Resolved merge conflicts"\
+
+git push origin main\
+
+git pull origin main\
+
+git add <file>  # ì¶©ëƒ¯ƒ¬ íƒµ´ê²° íƒ»ƒ¤ ìƒ¨ƒ¸ìƒ€ƒµëƒ°ƒ¼ íƒ¬ƒ¬ìƒ½¼ìƒ½ƒ¤ ì¶ƒ´ê°€\
+git commit -m "Resolve merge conflicts"\
+
+git push origin main\
+
+git push origin main --force-with-lease\
+
+git status\
+
+git add .\
+
+git commit -m "ìƒ£ƒ¨ëƒƒ¼ ë§ƒ¬ëƒ³ƒ€ íƒ¬ƒ¬ìƒ½¼ ì¶ƒ´ê°€"\
+
+git push origin main\
+
+git branch\
+
+git pull origin main\
+
+git push origin main\
+
+git checkout main\
+
+git status\
+
+git add .\
+git commit -m "Your commit message"\
+git push origin main\
+
+git status\
+
+git add instagram-api/app.py\
+
+git add .\
+
+git commit -m "Your commit message"\
+
+git commit -m "Add new feature for Instagram API"\
+
+git status\
+
+git status\
+
+git add instagram-api/app.py\
+
+ls\
+
+touch app.py\
+git add app.py\
+
+git status\
+
+git add .\
+git commit -m "Add app.py or other files"\
+git push origin main\
+
+git remote add origin https://github.com/kimjian0406/flask0228.git
+git remote remove origin\
+
+git push -u origin main\
+
+git remote add origin https://github.com/kimjian0406/flask0228.git
+git push -u origin main\
+
+python3 --version\
+
+python3 -m venv venv\
+
+source venv/bin/activate\
+
+pip3 install flask flask-sqlalchemy\
+
+pip freeze\
+
+python3 app.py\
+
+pip install flask-sqlalchemy\
+
+nano app.py
+> app.py\
+
+nano app.py
+mkdir flask_project\
+cd flask_project
+mkdir flask_project\
+cd flask_project
+python3 -m venv venv
+mkdir app\
+mkdir app/controllers\
+mkdir app/static\
+mkdir app/templates\
+mkdir app/static/images 
+touch app/__init__.py\
+touch app/models.py\
+touch app/routes.py\
+touch config.py\
+touch run.py\
+touch .gitignore
+cd flask_project  # íƒ´ƒ¤ëƒƒ¼ìƒ€ƒ½íƒª¸ íƒ¯´ëƒ­ƒ´ëƒƒ¼ ìƒ½´ëƒ¯ƒ¹\
+git init
+ls\
+
+touch .gitignore  # .gitignore íƒ¬ƒ¬ìƒ½¼ìƒ½ƒ¤ ìƒ£ƒ½ìƒ¤±\
+
+nano .gitignore  # nano íƒ®¸ì§ƒ±ê¸°ëƒƒ¼ ìƒ·´ê¸°\
+
+git status  # Git ìƒ£íƒ£ƒ¼ íƒ¹ƒµìƒ½¸\
+
+git add .gitignore  # .gitignore íƒ¬ƒ¬ìƒ½¼ Gitìƒ·ƒ° ì¶ƒ´ê°€\
+git commit -m "Add .gitignore"  # .gitignore ì¶ƒ´ê°€ ì»¤ë°ƒ«\
+git push  # ë³€ê²½ ì‚¬íƒµ­ìƒ½ƒ¤ GitHubëƒƒ¼ íƒ±¸ìƒ«ƒ¼\
+
+touch .gitignore  # .gitignore íƒ¬ƒ¬ìƒ½¼ ìƒ£ƒ½ìƒ¤±\
+nano .gitignore   # .gitignore íƒ¬ƒ¬ìƒ½¼ ìƒ·´ê¸°\
+
+git status\
+
+git add .gitignore  # .gitignore íƒ¬ƒ¬ìƒ½¼ Gitìƒ·ƒ° ì¶ƒ´ê°€\
+git commit -m "Add .gitignore"  # .gitignore íƒ¬ƒ¬ìƒ½¼ ì¶ƒ´ê°€ ì»¤ë°ƒ«\
+
+ls -a  # íƒ¸ƒ¤ìƒ¾¬ ëƒ´ƒ´ëƒ€ƒ©íƒ¦ƒ€ë¦¬ìƒ·ƒ°ìƒ¤ƒ¼ ëª¨ëƒ³ƒ€ íƒ¬ƒ¬ìƒ½¼(ìƒ¨¨ê¹€íƒ¬ƒ¬ìƒ½¼ íƒ¯¬íƒµ¨)ìƒ½ƒ¤ ë‚ƒ¸ìƒ·´\
+
+ls -a
+git status
+git add .gitignore
+git commit -m "Add .gitignore"
+git push -u origin main
+git push -u origin master
+git branch
+git push -u origin main
+https:https://github.com/Alex424525/Oz_flask_project.git
+git remote add originhttps://github.com/Alex424525/Oz_flask_project.git
+git remote add origin https://github.com/Alex424525/Oz_flask_project.git\
+
+git remote -v
+git push -u origin main
+git remote set-url originhttps://github.com/Alex424525/Oz_flask_project.git
+git push -u origin main\
+
+git ìƒ»ƒ°ê²© ì¶ƒ´ê°€ ì¶ƒ¼ì²ƒ¸ https://github.com/Alex424525/Oz_flask_project.git\
+git ë¸ƒ¬ëƒ¾ƒ¼ì¹ƒ¸ -M ë©ƒ´ìƒ½¸\
+git push -u origin main
+git remote set-url origin https://github.com/Alex424525/Oz_flask_project.git
+git push -u origin main
+git status\
+
+git add .
+git commit -m "íƒ´ƒ¤ëƒƒ¼ìƒ€ƒ½íƒª¸ êµ¬ìƒ° ë°ƒ¯ íƒ¬ƒ¬ìƒ½¼ ì¶ƒ´ê°€"
+git push -u origin main  # main ë¸ƒ¬ëƒ¾ƒ¼ì¹ƒ¸ëƒƒ¼ íƒ±¸ìƒ«ƒ¼\
+
+git branch\
+
+git status\
+
+git add .  # ëª¨ëƒ³ƒ€ ë³€ê²½ ì‚¬íƒµ­ ì¶ƒ´ê°€\
+git commit -m "íƒ´ƒ¤ëƒƒ¼ìƒ€ƒ½íƒª¸ íƒ¬ƒ¬ìƒ½¼ ì¶ƒ´ê°€"  # ì»¤ë°ƒ«\
+
+git add .\
+git commit -m "íƒ´ƒ¤ëƒƒ¼ìƒ€ƒ½íƒª¸ íƒ¬ƒ¬ìƒ½¼ ì¶ƒ´ê°€" 
+git push -u origin main  # main ë¸ƒ¬ëƒ¾ƒ¼ì¹ƒ¸ëƒƒ¼ íƒ±¸ìƒ«ƒ¼\
+
+git push -u origin main
+python3 -m venv venv  # ê°€ìƒ£ íƒ¹ƒ¸ê²½ ìƒ£ƒ½ìƒ¤±\
+source venv/bin/activate  # ê°€ìƒ£ íƒ¹ƒ¸ê²½ íƒ¹ƒ¼ìƒ¤±íƒ¹ƒ´ (Mac/Linux)\
+
+mkdir flask_project  # ìƒ¸¬ë°ƒ´ë¥¸ ëªƒ¥ëƒ€¹ìƒ¶´\
+
+mkdir -p /Users/ilaon/flask_project/flask_project\
+
+cd /Users/ilaon/flask_project/flask_project  # ê²½ëƒƒ¼ íƒ¹ƒµìƒ½¸\
+
+cd flask_project  # íƒ¸ƒ¤ìƒ¾¬ ìƒ¼ƒ¤ì¹ƒ¸ìƒ·ƒ°ìƒ¤ƒ¼ flask_projectëƒƒ¼ ìƒ½´ëƒ¯ƒ¹\
+
+cd "/Users/ilaon/flask_project/flask_project"
+python3 -m venv venv  # ê°€ìƒ£ íƒ¹ƒ¸ê²½ ìƒ£ƒ½ìƒ¤±\
+source venv/bin/activate
+pip install flask flask-sqlalchemy\
+
+ brew install tree 
+tree
+cd path/to/oz_form  # íƒ´ƒ¤ëƒƒ¼ìƒ€ƒ½íƒª¸ íƒ¯´ëƒ­ƒ´ëƒƒ¼ ìƒ½´ëƒ¯ƒ¹\
+git init            # Git ì´ƒ¨ê¸°íƒ¹ƒ´\
+
+cd path/to/oz_from\
+git init
+nano flask rotes.py
+python3 - m venv.venv
+nano routes/users.py
+nano routes.py
+nano routes.py
+flask run\
+
+nano routs.py
+nano routes.py
+flask run\
+
+curl -X POST http://localhost:5000/signup -H "Content-Type: application/json" -d '{"username": "john_doe", "email": "john@example.com", "password": "mypassword"}'\
+
+nano questions.py
+nano routes.py
+nano questions.py
+flask run\
+
+export FLASK_APP=app.py\
+
+flask run --app app.py\
+
+export FLASK_APP=app.py\
+
+flask run\
+
+nano app.py
+flask run\
+
+nano app.py\
+
+ls\
+
+flask run\
+
+ssh -i "your-key-pair.pem" ec2-user@your-ec2-public-ip\
+
+ssh -i "your-key-pair.pem" ec2-user@your-ec2-public-ip\
+
+cd /path/to/your-key-pair-directory\
+ssh -i "your-key-pair.pem" ec2-user@your-ec2-public-ip\
+
+cd ~/Downloads\
+
+cd ~/Downloads  # (í‚¤ íƒ¬ƒ¬ìƒ½¼ìƒ½´ ëƒ«¤ìƒº´ëƒƒ¼ëƒ³ƒ¼ íƒ¯´ëƒ­ƒ´ìƒ·ƒ° ìƒ¾ƒ¨ìƒ½ƒ¤ ê²½ìƒº°)\
+ssh -i "your-key-pair.pem" ec2-user@12.34.56.78  # (íƒ­¼ë¸ƒ´ë¦­ IP ì£¼ìƒ¦ƒ¬ ìƒ¾ƒ¥ëƒ€¥)\
+
+nano config.py
+cd ~/flask_project\
+
+ls\
+
+find . -name "app.py"\
+
+git status\
+
+find /path/to/search -name "app.py"\
+
+find . -name "app.py"\
+
+git log\
+
+mkdir ìƒ£ƒ¨ëƒƒ¼ìƒº´íƒ¯´ëƒ­ƒ´ìƒ½´ë¦ƒ¤\
+cd ìƒ£ƒ¨ëƒƒ¼ìƒº´íƒ¯´ëƒ­ƒ´ìƒ½´ë¦ƒ¤\
+
+mkdir 09_oz_ê¹€ì§€ìƒµƒ¨\
+cd 09_oz_ê¹€ì§€ìƒµƒ¨
+git init\
+
+mv /path/to/your/files/* ./
+mkdir flask_project\
+cd flask_project\
+
+python3 -m venv venv\
+
+source venv/bin/activate\
+
+nano config.py
+nano app.py
+cp -r /path/to/old/folder/* /path/to/09_oz_ê¹€ì§€ìƒµƒ¨/\
+
+cd /path/to/09_oz_ê¹€ì§€ìƒµƒ¨\
+
+ls\
+
+cd 09_oz_ê¹€ì§€ìƒµƒ¨\
+
+cd ..\
+
+ls\
+
+cd 09_oz_ê¹€ì§€ìƒµƒ¨\
+
+pwd\
+
+ls\
+
+mkdir 09_oz_ê¹€ì§€ìƒµƒ¨\
+
+cd 09_oz_ê¹€ì§€ìƒµƒ¨\
+
+cd 09_oz_ê¹€ì§€ìƒµƒ¨\
+
+pwd\
+
+ls\
+
+cp /path/to/source/íƒ¬ƒ¬ìƒ½¼.txt /Users/ilaon/09_oz_ê¹€ì§€ìƒµƒ¨/09_oz_ê¹€ì§€ìƒµƒ¨/\
+
+ls -a\
+
+cd /Users/ilaon/Documents/Projects/MyProject\
+
+mv /Users/ilaon/09_oz_ê¹€ì§€ìƒµƒ¨/ìƒ£ƒ¨íƒ¬ƒ¬ìƒ½¼.txt /Users/ilaon/Documents/Projects/MyProject/\
+
+mkdir /Users/ilaon/Documents/Projects/NewProject\
+
+cd /Users/ilaon/Documents/Projects/NewProject\
+
+mkdir NewProject\
+
+mkdir ~/Documents/MyNewFolder\
+
+cd ~/Documents/MyNewFolder\
+
+ls\
+
+touch newfile.txt\
+
+nano config.py
+nano models.py
+nano crud.py
+nano main.py
+cd ~/Documents/MyNewFolder  # ìƒ¸ƒ¨ìƒ«ƒ¼: MyNewFolder íƒ¯´ëƒ­ƒ´ëƒƒ¼ ìƒ½´ëƒ¯ƒ¹\
+
+git init\
+
+git add .\
+
+cd ~/09_oz_ê¹€ì§€ìƒµƒ¨\
+
+git init\
+
+git add .\
+
+git commit -m "Initial commit"\
+
+git remote add origin https://github.com/Alex424525/Oz_flask_project.git
+git push -u origin master\
+
+git branch\
+
+git push -u origin main\
+
+git remote show origin\
+
+git pull origin main\
+
+git add .\
+git commit -m "Merge remote-tracking branch 'origin/main' into main"\
+
+git push origin main\
+
+git pull origin main\
+
+git commit -m "Merge changes from remote"\
+
+git push origin main\
+
+git pull origin main --merge\
+
+git push origin main\
+
+git pull origin main --merge\
+
+git push origin main\
+
+git push --force origin main\
+
+git branch\
+
+git checkout develop\
+
+git fetch origin\
+
+git checkout develop\
+
+git fetch origin\
+git branch -r\
+
+git checkout develop\
+git pull origin develop\
+
+git push origin develop\
+
+git pull origin develop\
+
+git push origin develop\
+
+git add .\
+git commit -m "Resolve merge conflicts"\
+git push origin develop\
+
+git pull --rebase origin develop\
+
+git push origin develop\
+
+git push origin develop\
+
+git fetch origin\
+git log origin/develop..develop\
+
+pwd\
+
+git branch\
+
+git checkout develop\
+
+git fetch\
+
+git branch -a\
+
+git checkout -b develop origin/develop\
+
+git fetch origin\
+
+git checkout -b develop\
+
+git checkout -b develop\
+
+nano app.py
+cd /path/to/your/project\
+
+git add app.py\
+git commit -m "Add API endpoints for basic connection, signup, and questions"\
+
+git push origin develop\
+
+git branch\
+
+git checkout Develop\
+
+git add .\
+git commit -m "ìƒ¾ƒ±ìƒ·ƒ¥ ë‚´ìƒº©ìƒ·ƒ° ëƒ¬€íƒµƒ¼ ìƒ¤¤ëªƒ¥"\
+
+git rm --cached Library/Saved\ Application\ State/com.installbuilder.appinstaller.savedState/\
+git rm --cached 09_oz_ê¹€ì§€ìƒµƒ¨\
+git rm --cached Desktop/flasktest0227\
+git rm --cached Documents/GitHub\
+git rm --cached Documents/myfolder\
+git rm --cached Documents/myproject\
+
+git commit -m "Remove embedded repositories"\
+
+git checkout -b feature/sunny-day
+git status\
+
+git checkout -b feature/sunny-day
+mkdir new-project\
+cd new-project\
+
+touch file1.py file2.py file3.py\
+
+git status\
+
+git add new-folder/\
+git commit -m "ìƒ£ƒ¨ íƒ¯´ëƒ­ƒ´ìƒ¹€ íƒ¬ƒ¬ìƒ½¼ ì¶ƒ´ê°€"\
+
+git push origin new-branch-name\
+
+git init\
+
+git remote add origin https://github.com/Alex424525/Oz_flask_project.git
+git add .\
+git commit -m "ì²« ì»¤ë°ƒ«: ìƒ£ƒ¨ ìƒ€€ìƒ¾¥ìƒ¦ƒ¬ìƒ·ƒ° ì¶ƒ´ê°€"\
+
+git branch -M main\
+git push -u origin main\
+
+git pull origin main --rebase\
+
+git push origin main\
+
+cd new-project\
+touch app.py\
+
+nano app.py
+mkdir -p static/images\
+
+ls -R static\
+
+git branch\
+
+git checkout feature/sunny-day \
+
+git branch\
+
+git branch -r\
+
+git checkout -b feature/sunny-day\
+
+git push -u origin feature/sunny-day\
+
+git pull origin feature/sunny-day\
+
+git pull --no-rebase\
+
+git branch --set-upstream-to=origin/feature/sunny-day feature/sunny-day\
+
+git pull\
+
+git config pull.rebase false\
+
+git pull
+git config pull.rebase false
+git pull
+git branch\
+
+git pull origin feature/sunny-day\
+
+git push origin feature/sunny-day\
+
+git pull origin feature/sunny-day --rebase\
+
+git push origin feature/sunny-day\
+
+nano file1.py\
+
+nano file2.py\
+
+git add file1.py\
+git commit -m "file1.pyìƒ·ƒ° ì²ƒ¸ìƒ½ƒ¬ ë§ƒ¬ëƒ³ƒ€ íƒ¬ƒ¬ìƒ½¼ ì¶ƒ´ê°€"\
+
+git push origin feature/sunny-day\
+
+git add file2.py\
+git commit -m "file2.pyìƒ·ƒ° ì¶ƒ´ê°€ íƒ¬ƒ¬ìƒ½¼ ë‚´ìƒº©"\
+
+git push origin feature/sunny-day\
+
+nano config.py
+git status\
+
+git add config.py\
+
+git commit -m "Add config.py file with database settings"\
+
+git branch\
+
+git push origin feature/sunny-day\
+
+nano requirements.txt
+git status\
+git add requirements.txt\
+git commit -m "Add requirements.txt file with dependencies"\
+git push origin feature/sunny-day\
+
+source venv/bin/activate  # macOS/Linux\
+venv\Scripts\activate  # Windows\
+
+source venv/bin/activate 
+python3 -m venv venv\
+
+source venv/bin/activate\
+
+mysql -u username -p\
+
+mysql -u username -p\
+
+sudo mysql_safe --skip-grant-tables &\
+
+mysql -u root\
+
+ps aux | grep mysql\
+
+brew services start mysql\
+
+mysql -u root -p\
+
+mysql -u root -p\
+
+sudo pkill mysqld\
+
+sudo mysqld_safe --skip-grant-tables &\
+
+sudo mysql.server stop\
+
+sudo rm /opt/homebrew/var/mysql/ilaon-ui-MacBookPro.local.pid\
+
+sudo mysql.server stop\
+
+sudo systemctl status mysql\
+
+brew services list\
+
+sudo mysql.server restart\
+
+tail -f /opt/homebrew/var/mysql/ilaon-ui-MacBookPro.local.err\
+
+mysql -u root\
+
+sudo mysql.server stop\
+
+ps aux | grep mysqld\
+
+sudo mysql.server stop\
+
+ps aux | grep mysqld\
+
+sudo kill -9 [PID]\
+
+sudo rm /opt/homebrew/var/mysql/*.pid\
+
+sudo mysql.server start\
+
+sudo mysqld_safe --skip-grant-tables --skip-networking &\
+
+cat /opt/homebrew/var/mysql/ilaon-ui-MacBookPro.local.err\
+
+mysql -u root\
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY '0406';
+mysql -u root\
+
+sudo mysqld_safe --skip-grant-tables --skip-networking &\
+
+mysql -u root\
+
+sudo mysqld_safe --skip-grant-tables --skip-networking &\
+
+mysql -u root\
+
+sudo mysql.server stop\
+
+sudo mysqld_safe --skip-grant-tables --skip-networking &\
+
+mysql -u root\
+
+sudo mysql.server stop\
+
+ps aux | grep mysql\
+
+sudo mysql.server start\
+
+cat /opt/homebrew/var/mysql/ilaon-ui-MacBookPro.local.err\
+
+sudo chown -R _mysql:_mysql /opt/homebrew/var/mysql/\
+
+sudo killall mysqld\
+
+sudo mysql.server start\
+
+mysql -u root -p\
+
+sudo mysql.server stop\
+
+sudo mysqld_safe --skip-grant-tables --skip-networking &\
+
+mysql -u root\
+
+mysql -u root UPDATE mysql.user SET password=PASSWORD('0406') WHERE User='root';\
+
+mysql -u root -p\
+
+UPDATE mysql.user SET authentication_string=PASSWORD('0406') WHERE User='root';\
+
+UPDATE mysql.user SET password=PASSWORD('0406') WHERE User='root';\
+
+mysql -u root -p\
+
+mysql -u root -p\
+
+sudo mysqld_safe --skip-grant-tables --skip-networking &\
+
+mysql -u root\
+
+sudo killall mysqld\
+
+sudo mysqld_safe --skip-grant-tables --skip-networking &\
+
+mysql -u root\
+
+sudo killall mysqld\
+
+sudo mysqld_safe --skip-grant-tables --skip-networking &\
+
+mysql -u root\
+
+sudo killall mysqld\
+
+sudo mysqld_safe --skip-grant-tables --skip-networking &\
+
+mysql -u root\
+
+mysql -u root -p\
+
+pip3 install Flask-SQLAlchemy Flask-Migrate\
+
+python3 -m flask db init\
+python3 -m flask db migrate -m "init"\
+python3 -m flask db upgrade\
+
+pip install Flask-Migrate\
+
+pip3 install Flask-Migrate\
+
+nano app.py
+flask db init\
+flask db migrate -m "initial migration"\
+flask db upgrade\
+
+pip3 install mysqlclient\
+
+xcode-select --install\
+
+brew install mysql\
+
+pip3 install mysqlclient\
+
+brew install mysql\
+
+which mysql_config\
+
+pip3 install mysqlclient\
+
+xcode-select --install\
+
+brew install mysql-client\
+
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"\
+pip3 install mysqlclient\
+
+pip3 install PyMySQL\
+
+nano app.py
+brew reinstall mysql\
+
+mysql_secure_installation\
+
+pip install mysqlclient\
+
+brew install mysql-connector-c\
+
+brew install python@3\
+
+brew install flask\
+
+/your_project\
+    /app.py\
+
+nano app.py
+brew install mysql-connector-c\
+
+brew reinstall mysql-client\
+
+nano app.config
+python3 app.py\
+
+nano app.py
+python3 -m venv venv\
+source venv/bin/activate
+python app.py\
+
+nano app.py
+python app.py\
+
+python3 --version\
+
+python3 app.py\
+
+git checkout -b feature/sunny-day
+git add .\
+
+git status\
+
+git add .\
+
+cd /Users/ilaon/Desktop/flasktest0227  # ëƒ¸ƒ°ëƒªƒ´ íƒ´ƒ¤ëƒƒ¼ìƒ€ƒ½íƒª¸ ê²½ëƒƒ¼ëƒƒ¼ ìƒ½´ëƒ¯ƒ¹\
+git checkout feature/sunny-day\
+
+mv /path/to/mydatabase.db flask_project/\
+
+nano app.py
+git fetch origin\
+git checkout feature/sunny-day\
+
+git status\
+
+git branch\
+
+git status\
+
+git add -A\
+git commit -m "ìµƒ¼ê·¼ ë³€ê²½ ì‚¬íƒµ­ ë°ƒ¸ìƒ¸"\
+
+git log --oneline -5\
+
+git branch\
+
+git checkout feature/sunny-day\
+
+git status\
+
+git add .
+git rev-parse --show-toplevel\
+
+git submodule\
+
+cd ~/Desktop/flasktest0227  # ëƒ¤¤ íƒ´ƒ¤ëƒƒ¼ìƒ€ƒ½íƒª¸ ê²½ëƒƒ¼ìƒ·ƒ° ë§ƒ¾ê²ƒ¬ ìƒ¨ƒ¸ìƒ€ƒµ\
+
+git remote -v\
+
+git remote set-url origin https://github.com/Alex424525/Oz_flask_project.git\
+
+git branch\
+
+git checkout feature/sunny-day\
+
+git add .\
+git commit -m "Add latest updates to feature/sunny-day"\
+
+rm -rf ~/09_oz_ê¹€ì§€ìƒµƒ¨/.git
+rm -rf ~/Desktop/flasktest0227/.git
+rm -rf ~/Documents/GitHub/.git
+rm -rf ~/Documents/myfolder/.git
+rm -rf ~/Documents/myproject/.git
+rm -rf ~/Users/ilaon/oz_assignment/.git
+git remote -v\
+
+git branch\
+
+git checkout feature/sunny-day\
+
+git add .\
+git commit -m "Update files for feature/sunny-day"\
+
+cd ~/Desktop/flasktest0227  # ëƒ¤¤ íƒ´ƒ¤ëƒƒ¼ìƒ€ƒ½íƒª¸ ê²½ëƒƒ¼ìƒ·ƒ° ë§ƒ¾ê²ƒ¬ ìƒ¨ƒ¸ìƒ€ƒµ
+cd ~/Desktop/flasktest0227  # https://github.com/Alex424525/Oz_flask_project.git
+find . -type d -name ".git"\
+
+rm -rf ./Users/ilaon/oz_assignment/.git\
+rm -rf ./09_oz_ê¹€ì§€ìƒµƒ¨/.git\
+rm -rf ./Desktop/flasktest0227/.git\
+rm -rf ./Documents/GitHub/.git\
+rm -rf ./Documents/myfolder/.git\
+rm -rf ./Documents/myproject/.git\
+
+git status\
+
+git rm --cached -r .\
+git add .\
+git commit -m "Fix repository structure"\
+
+git remote -v\
+
+git add .\
+git commit -m "Final fix: clean repository and push updates"\
+git push origin feature/sunny-day\
+
+find . -type d -name ".git"
+rm -rf Documents/GitHub/desktop-tutorial/.git
+rm -rf Documents/GitHub/flask0228/.git
+rm -rf Users/ilaon/oz_assignment/.git
+git status
+git rm --cached -r .\
+git add .\
+git commit -m "Fix nested repositories issue"\
+
+git status\
+
+git status\
+
+git add .\
+
+find . -type d -name ".git"
+pwd\
+cd ~/Documents/GitHub/Oz_flask_project\
+
+git status\
+
+git rm --cached -r Users/ilaon/oz_assignment\
+git commit -m "Remove nested repository issue"\
+
+git status\
+
+git add --all\
+
+nano .gitignore\
+
+git rm -r --cached .\
+git add .\
+git commit -m "Fix: Ignore system files and clean repository"\
+git push origin feature/sunny-day\
+
+echo $SHELL\
+
+pwd\
+
+git status\
+
+git status\
+
+git branch\
+
+git add flask_project/ app.py config.py models.py routes.py templates/\
+
+pwd\
+
+ls -al\
+
+cd /Users/ilaon/Documents/GitHub/Oz_flask_project\
+ls -al\
+
+git add flask_project/ app.py config.py models.py routes.py templates/\
+git commit -m "Fix: ìƒ¸¬ë°ƒ´ë¥¸ ê²½ëƒƒ¼ìƒ·ƒ°ìƒ¤ƒ¼ íƒ¬ƒ¬ìƒ½¼ ì¶ƒ´ê°€"\
+git push origin feature/sunny-day\
+
+git pull origin feature/sunny-day --rebase\
+
+git push origin feature/sunny-day\
+
+git pull --rebase
+git push origin feature/sunny-day --force\
+
+git pull origin feature/sunny-day --rebase\
+git push origin feature/sunny-day\
+
+mkdir ~/Documents/backup_20240305\
+
+cp íƒ¬ƒ¬ìƒ½¼1.py íƒ¬ƒ¬ìƒ½¼2.py config.py ~/Documents/backup_20240305/\
+
+cp flie1.py flie2.py config.py app.py  ~/Documents/backup_20240305/\
+
+nano upload.html
+python app.py\
+
+brew install python-flask\
+
+python3 app.py\
+
+python run.py\
+
+flask run\
+
+ app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://username:password@localhost/dbname'\
+
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://username:password@localhost/dbname'\
+
+brew install pymysql\
+
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://username:password@localhost/dbname'\
+
+flask run\
+
+brew install pymysql\
+
+import pymysql\
+pymysql.install_as_MySQLdb()\
+\
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://username:password@localhost/dbname'\
+
+nano app.py
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://username:password@localhost/dbname'\
+
+flask run\
+
+pip3 install pymysql
+nano app.py
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://username:password@localhost/dbname'\
+
+sudo pacman -S django\
+
+sudo apt update\
+sudo apt install python3-django\
+
+bash\
+sudo apt update\
+sudo apt install python3-django\
+
+python3 manage.py migrate\
+
+python3 manage.py migrate\
+
+python3 manage.py runserver\
+
+pwd\
+
+cd ~/Projects/myproject\
+
+find ~ -name "manage.py"\
+
+cd /Users/ilaon/Desktop/myproject\
+
+cd /Users/ilaon/myproject\
+
+python3 manage.py migrate\
+
+python3 manage.py runserver\
+
+brew install pyenv pyenv-virtualenv\
+
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc\
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc\
+echo 'eval "$(pyenv init --path)"' >> ~/.zshrc\
+echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc\
+source ~/.zshrc\
+
+pyenv install 3.12.1  # ìµƒ¼ìƒ«ƒ€ ë²ƒ¤ìƒ€ƒ¤ íƒ¹ƒµìƒ½¸ íƒ»ƒ¤ ë³€ê²½ ê°€ëƒª¥\
+pyenv global 3.12.1\
+
+python --version
+pyenv virtualenv 3.12.1 myenv\
+pyenv local myenv\
+
+brew install poetry\
+
+poetry init\
+
+poetry add django\
+
+nano pyproject.toml\
+
+poetry install\
+
+cat pyproject.toml\
+
+ponano pyproject.toml\
+etry add django\
+
+nano pyproject.toml\
+
+poetry install\
+
+cat pyproject.toml\
+
+nano pyproject.toml\
+
+poetry install\
+
+poetry add django\
+
+pyenv install 3.10.5\
+pyenv local 3.10.5
+[tool.poetry.dependencies]\
+python = ">=3.10"\
+
+nano pyproject.toml\
+
+poetry install\
+
+nano pyproject.toml\
+
+poetry install\
+
+django-admin startproject myproject\
+cd myproject\
+
+rm -rf /Users/ilaon/myproject\
+
+ls /Users/ilaon\
+
+rm -rf /Users/ilaon/myproject\
+
+exit\
+
+ls /Users/ilaon
+cd /Users/ilaon/myproject\
+
+ls /Users/ilaon\
+
+find / -name "myproject" 2>/dev/null\
+
+django-admin startproject myproject\
+cd myproject\
+
+ls\
+
+brew install pyenv\
+
+pyenv install 3.10.5\
+
+brew install pyenv-virtualenv\
+
+pyenv virtualenv 3.10.5 myproject-env\
+pyenv activate myproject-env\
+
+nano ~/.zshrc\
+
+source ~/.zshrc\
+
+pyenv activate myproject-env\
+
+django-admin startproject myproject\
+cd myproject\
+
+ls /Users/ilaon/myproject\
+
+mv /Users/ilaon/myproject/myproject /Users/ilaon/myproject/myproject_old\
+
+django-admin startproject myproject\
+
+cd myproject\
+
+nanomyproject/urls.py
+nano myproject/urls.py\
+
+nano views.py
+nano myapp/views.py
+nano myproject/urls.py
+python manage.py runserver\
+
+which python\
+
+pip install django\
+
+pip list\
+
+python manage.py runserver\
+
+from myapp import views
+from myapp.views import *\
+
+zsh: command not found: from\
+ilaon@ilaon-ui-MacBookPro ~ % 
+INSTALLED_APPS = [\
+    'django.contrib.admin',\
+    'django.contrib.auth',\
+    'django.contrib.contenttypes',\
+    'django.contrib.sessions',\
+    'django.contrib.messages',\
+    'django.contrib.staticfiles',\
+\
+    'myapp',]
+INSTALLED_APPS = [\
+    'django.contrib.admin',\
+    'django.contrib.auth',\
+    'django.contrib.contenttypes',\
+    'django.contrib.sessions',\
+    'django.contrib.messages',\
+    'django.contrib.staticfiles',\
+\
+    'myapp',  # ìƒ·¬ê¸°ìƒ·ƒ° ì¶ƒ´ê°€!\
+]\
+cd /Users/ilaon/myproject\
+python manage.py runserver\
+
+which python\
+python --version\
+
+pyenv activate myproject-env\
+
+poetry show django
+poetry add django\
+
+poetry env info\
+
+poetry env use /Users/ilaon/.pyenv/versions/myproject-env/bin/python\
+
+poetry env info\
+
+poetry add django\
+
+poetry env info\
+
+nano pyproject.toml\
+
+poetry lock --no-update\
+poetry install\
+
+poetry add django\
+
+cat pyproject.toml\
+
+mv pyproject.toml pyproject.toml.bak\
+
+poetry init\
+
+poetry add django\
+
+nano pyproject.toml
+poetry add django\
+
+python manage.py runserver\
+
+myproject/\
+  âƒ´ƒ¼âƒ´€âƒ´€ manage.py\
+  âƒ´ƒ¼âƒ´€âƒ´€ myproject/\
+      âƒ´ƒ¼âƒ´€âƒ´€ __init__.py\
+      âƒ´ƒ¼âƒ´€âƒ´€ settings.py\
+      âƒ´ƒ¼âƒ´€âƒ´€ urls.py\
+      âƒ´ƒ¼âƒ´€âƒ´€ wsgi.py\
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject.settings')\
+
+django-admin startproject myproject\
+
+cd myproject\
+
+python manage.py runserver\
+
+python manage.py migrate\
+
+cd /Users/ilaon/myproject\
+
+python manage.py migrate\
+
+which python\
+
+pyenv activate myproject-env\
+
+poetry add django\
+
+python manage.py migrate\
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject.settings')\
+
+# myproject/settings.py\
+\
+INSTALLED_APPS = [\
+    'django.contrib.admin',\
+    'django.contrib.auth',\
+    'django.contrib.contenttypes',\
+    'django.contrib.sessions',\
+    'django.contrib.messages',\
+    'django.contrib.staticfiles',\
+]\
+\
+DATABASES = {\
+    'default': {\
+        'ENGINE': 'django.db.backends.sqlite3',\
+        'NAME': BASE_DIR / "db.sqlite3",\
+    }\
+}\
+\
+# ë‚ƒ¸ë¨¸ì§€ ê¸°ë³¸ ìƒ¤¤ìƒ€ƒµ...\
+
+\
+\
+INSTALLED_APPS = [\
+    'django.contrib.admin',\
+    'django.contrib.auth',\
+    'django.contrib.contenttypes',\
+    'django.contrib.sessions',\
+    'django.contrib.messages',\
+    'django.contrib.staticfiles',\
+]\
+\
+DATABASES = {\
+    'default': {\
+        'ENGINE': 'django.db.backends.sqlite3',\
+        'NAME': BASE_DIR / "db.sqlite3",\
+    }\
+}\
+\
+\
+
+nano myproject/settings.py
+python manage.py migrate\
+
+nano settings.py
+python manage.py migrate\
+
+nano settings.py
+django-admin startproject myproject
+django-admin startproject mynewproject\
+
+cd mynewproject\
+
+python manage.py migrate\
+
+python manage.py runserver\
+
+cd myproject
+nano myproject/urls.py
+nano myapp/views.py 
+poetry add jinja2\
+
+# myproject/settings.py\
+nano settings.py\
+
+nano jinja2.py
+mkdir templates\
+
+touch templates/home.html\
+
+touch templates/home.html\
+
+nano templates/home.html\
+
+nano views.py
+nano urls.py
+nano  settings.py
+CTRL + C\
+
+python manage.py runserver\
+
+nano views.py
+nano urls.py
+mkdir -p myapp/templates/myapp\
+
+nano myapp/templates/myapp/home.html\
+
+nano myapp/views.py
+nano myapp/views.py
+nano urls.py
+python manage.py runserver\
+
+nano urls.py 
+nano views.py
+nano settings.py
+nano settings.py
+ls\
+
+ls -l\
+
+ls -a\
+
+ls -R\
+
+brew install tree\
+
+cd ~/myproject  # íƒ´ƒ¤ëƒƒ¼ìƒ€ƒ½íƒª¸ íƒ¯´ëƒ­ƒ´ëƒƒ¼ ìƒ½´ëƒ¯ƒ¹ (íƒ¯´ëƒ­ƒ´ëªƒ¥ìƒ·ƒ° ë§ƒ¾ê²ƒ¬ ìƒ¨ƒ¸ìƒ€ƒµíƒµƒ¸ìƒ¤¸ìƒºƒ´)\
+tree\
+
+tree myapp/templates\
+
+git status\
+
+git status\
+
+git init
+git remote add origin https://github.com/kimjian0406/Django0307.git
+git remote remove origin\
+git remote add origin https://github.com/kimjian0406/Django0307.git\
+
+git remote -v\
+
+git status\
+
+git add .\
+
+git rm --cached -r oz_assignment
+git rm --cached -r oz_assignment\
+
+git push -u origin main\
+
+git pull origin main --rebase\
+
+git add .\
+git commit -m "fix: ì¶©ëƒ¯ƒ¬ íƒµ´ê²° íƒ»ƒ¤ ì»¤ë°ƒ«"\
+git push origin main\
+
+cd -Users-ilaon-oz_assignment\
+rm -rf .git\
+cd ..\
+
+git add .\
+git commit -m "fix: ë‚´ë¶€ Git ìƒ€€ìƒ¾¥ìƒ¦ƒ¬ ìƒ€ƒ¼ê±°"\
+git push origin main\
+
+git pull origin main --rebase
+git add .\
+
+git branch
+git checkout main\
+
+rm README.md\
+
+git add .\
+git commit -m "fix: README.md ì‚­ìƒ€ƒ¼ íƒ»ƒ¤ ëƒ«¤ìƒ«ƒ¼ íƒ±¸ìƒ«ƒ¼"\
+
+git rm --cached -r Desktop/flasktest0227
+git rm --cached -r Desktop/flasktest0227\
+
+git add .\
+git commit -m "fix: ë¶ƒ¨íƒµƒ¤ìƒºƒ´íƒµƒ¼ Git ìƒ€€ìƒ¾¥ìƒ¦ƒ¬ ìƒ€ƒ¼ê±°"\
+
+git rm --cached -r Desktop/flasktest0227\
+
+git add .\
+git commit -m "fix: ë‚´ìƒ¾¥ Git ìƒ€€ìƒ¾¥ìƒ¦ƒ¬ ìƒ€ƒ¼ê±°"\
+
+git rm --cached Desktop/flasktest0227\
+
+git status\
+
+echo "Desktop/flasktest0227" >> .gitignore\
+git add .gitignore\
+git commit -m "fix: .gitignoreìƒ·ƒ° flasktest0227 ê²½ëƒƒ¼ ì¶ƒ´ê°€"\
+git push origin main --force\
+
+git submodule deinit -f Desktop/flasktest0227\
+git rm -f Desktop/flasktest0227\
+git commit -m "fix: ìƒ¤ƒ¼ë¸ƒ¬ëª¨ëƒ³ƒ¨ ìƒ€ƒ¼ê±°"\
+git push origin main --force\
+
+git clone https://github.com/kimjian0406/Django0307.git\
+cd Django0307\
+\
+git add .\
+git commit -m "ìƒ£ƒ¨ëƒƒ¼ìƒº´ íƒ¬ƒ¬ìƒ½¼ íƒ±¸ìƒ«ƒ¼"\
+git push origin main\
+
+git add .\
+
+git commit -m "ìƒ£ƒ¨ëƒƒ¼ìƒº´ íƒ¬ƒ¬ìƒ½¼ ì¶ƒ´ê°€"\
+
+git push origin main\
+
+git status\
+
+git add .\
+git commit -m "ë³€ê²½ ì‚¬íƒµ­ ì¶ƒ´ê°€"\
+git push origin main\
+
+git status\
+
+git status\
+
+git add .\
+
+git commit -m "ìƒ£ƒ¨ëƒƒ¼ ë§ƒ¬ëƒ³ƒ€ íƒ¬ƒ¬ìƒ½¼ëƒ³¤ ì¶ƒ´ê°€"\
+
+git commit -m "ìƒ£ƒ¨ëƒƒ¼ ë§ƒ¬ëƒ³ƒ€ íƒ¬ƒ¬ìƒ½¼ëƒ³¤ ì¶ƒ´ê°€"\
+
+git push origin main\
+
+ls\
+
+git status\
+
+git add templates/home.html\
+
+git commit -m "ìƒ£ƒ¨ëƒƒ¼ ë§ƒ¬ëƒ³ƒ€ íƒ¬ƒ¬ìƒ½¼ ì¶ƒ´ê°€"\
+
+git push origin main\
+
+django-admin startproject new_project_name\
+
+cd new_project_name\
+
+git init\
+git remote add origin https://github.com/yourusername/new_repo_name.git\
+
+git add .\
+git commit -m "Initial commit with new files"\
+git push -u origin main\
+
+git init\
+git remote add origin https://github.com/kimjian0406/Django0307.git
+git add .\
+git commit -m "Initial commit with new files"\
+git push -u origin main\
+
+https://github.com/kimjian0406/Django0307.git
+git remote set-url origin https://github.com/kimjian0406/Django0307.git
+git push -u origin main\
+
+git pull origin main\
+
+git push origin main\
+
+git pull origin main --rebase\
+
+git push origin main\
+
+nano urls.py
+nano views.py
+nano user_list.html
+nano user_info.html
+nano views.py
+python manage.py makemigrations\
+python manage.py migrate\
+python manage.py runserver\
+
+source myproject-env/bin/activate\
+
+pip install django\
+
+python manage.py runserver\
+
+python manage.py migrate\
+
+python manage.py runserver\
+
+git init\
+git add .\
+
+git init\
+git add .\
+
+git status\
+
+git rm --cached -r Django0307\
+
+git remote add origin https://github.com/kimjian0406/Django0307.git
+git remote remove origin\
+
+git remote add origin https://github.com/kimjian0406/Django0307.git\
+
+git push -u origin main\
+
+git remote remove origin\
+
+git remote add origin https://github.com/kimjian0406/Django0307.git\
+
+git push -u origin main\
+
+git pull origin main --rebase\
+
+git add .\
+git commit -m "fix: resolve merge conflicts"\
+
+git rm --cached -r Django0307\
+
+git commit -m "fix: remove embedded repository Django0307"\
+
+git push origin main\
+
+git pull origin main\
+
+git add .\
+git commit -m "fix: merge remote changes"\
+
+git remote remove origin\
+git remote add origin https://github.com/kimjian0406/Django0307.git\
+
+git status\
+
+git status\
+
+git add .\
+
+git init\
+
+https://github.com/kimjian0406/my_django_project.git\
+
+git remote add origin https://github.com/kimjian0406/Django0307.git
+git remote -v\
+
+pwd\
+
+git rm --cached Django0307\
+
+git add .\
+git commit -m "ì¶ƒ´ê°€ëƒ°ƒ¼ íƒ¬ƒ¬ìƒ½¼ ì»¤ë°ƒ« ë©ƒ´ìƒ«ƒ¼ì§€"\
+git push origin main\
+

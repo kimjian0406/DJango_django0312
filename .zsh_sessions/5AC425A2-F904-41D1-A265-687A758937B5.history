@@ -1,0 +1,172 @@
+git push origin main\
+
+brew install git-lfs\
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+
+brew install git-lfs\
+git lfs install\
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+
+brew
+echo >> /Users/ilaon/.zprofile\
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/ilaon/.zprofile\
+eval "$(/opt/homebrew/bin/brew shellenv)"\
+
+brew 
+brew install git-lfs\
+git lfs install\
+
+git push origin main\
+
+git pull origin main --rebase\
+
+git add .\
+git commit -m "ë³€ê²½ ì‚¬íƒµ­ ì»¤ë°ƒ«"\
+
+git stash\
+
+git pull origin main --rebase\
+
+git stash pop\
+
+git push origin main\
+
+git pull origin main\
+
+git push origin main\
+
+git pull --rebase origin main\
+
+git add <ì¶©ëƒ¯ƒ¬ íƒµ´ê²°ëƒ°ƒ¼ íƒ¬ƒ¬ìƒ½¼>\
+git rebase --continue\
+
+git push --force origin main\
+
+git lfs track "*.zip"\
+git lfs track "*.app"\
+
+git add .gitattributes\
+git commit -m "Track large files with Git LFS"\
+
+git add .gitattributes\
+git commit -m "Track large files with Git LFS"\
+
+git push --force origin main\
+
+git lfs track "*.zip"\
+git lfs track "iTerm2"\
+
+git add .gitattributes\
+git add .\
+git commit -m "Add large files to Git LFS"\
+
+git add .gitattributes\
+git add .\
+git commit -m "Add large files to Git LFS"\
+
+git push origin main\
+
+git rm --cached .Trash/iTerm\
+git rm --cached .Trash/VSCode-darwin-universal.zip\
+git commit -m "Remove large files"\
+git push origin main\
+
+git pull origin main\
+
+git add .\
+git commit -m "ì»¤ë°ƒ« ë©ƒ´ìƒ«ƒ¼ì§€"\
+
+git stash\
+
+git pull origin main
+git stash pop\
+
+git pull
+git push
+git checkout main\
+
+git add .\
+git commit -m "ì»¤ë°ƒ« ë©ƒ´ìƒ«ƒ¼ì§€ ìƒ¾ƒ¥ëƒ€¥"\
+
+git stash\
+
+git checkout main\
+
+mv .gitconfig ~/Desktop/\
+mv .viminfo ~/Desktop/\
+
+rm .gitconfig\
+rm .viminfo\
+
+nano .gitignore
+git checkout main\
+
+git pull origin main\
+git push origin main\
+
+git pull origin main\
+
+git push origin main\
+
+git add <ì¶©ëƒ¯ƒ¬ íƒµ´ê²°ëƒ°ƒ¼ íƒ¬ƒ¬ìƒ½¼>\
+git commit -m "Resolve merge conflict"\
+git push origin main\
+
+git add README.md\
+git commit -m "Resolve merge conflict"\
+git push origin main\
+
+git pull origin main\
+
+git add <ìƒ¨ƒ¸ìƒ€ƒµëƒ°ƒ¼ íƒ¬ƒ¬ìƒ½¼>\
+
+git add
+git commit -m "Resolve merge conflict"\
+
+git push origin main\
+
+git pull origin main\
+
+mkdir my-new-project\
+cd my-new-project\
+git init\
+
+git remote add origin https://github.com/kimjian0406/Django0317.git
+echo "# My New Project" > README.md\
+git add README.md\
+git commit -m "Initial commit"\
+
+git push -u origin main\
+
+git branch\
+
+git branch -m master main\
+
+git push -u origin main\
+
+git remote -v\
+
+git branch -r\
+
+git push -u origin master
+git branch\
+
+git push -u origin main\
+
+echo "# My new project" > README.md\
+git add README.md\
+git commit -m "Initial commit"\
+
+git push -u origin main\
+
+git pull origin main --rebase\
+
+nano README.md
+git rebase --continue\
+
+git add README.md\
+
+git rebase --continue\
+
