@@ -1,0 +1,18 @@
+from django.views.generic.edit import CreateView
+from django.urls import reverse_lazy
+from .models import Comment
+from django.contrib.auth.mixins import LoginRequiredMixin
+
+class CommentCreateView(LoginRequiredMixin, CreateView):
+    model = Comment
+    form_class = CommentForm
+    template_name = 'todo_info.html'
+
+    def form_valid(self, form):
+        form.instance.user = self.request.user
+        form.instance.todo = get_object_or_404(Todo, pk=self.kwargs['todo_id'])
+        return super().form_valid(form)
+
+    def get_success_url(self):
+        return reverse_lazy('todo_detail', kwargs={'pk': self.kwargs['todo_id']})
+

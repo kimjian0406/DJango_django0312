@@ -1,0 +1,18 @@
+from django.views.generic.edit import UpdateView
+from django.http import Http404
+from .models import Comment
+
+class CommentUpdateView(LoginRequiredMixin, UpdateView):
+    model = Comment
+    fields = ['message']
+    template_name = 'todo_info.html'
+
+    def get_object(self, queryset=None):
+        comment = super().get_object(queryset)
+        if comment.user != self.request.user and not self.request.user.is_staff:
+            raise Http404("댓글을 수정할 수 없습니다.")
+        return comment
+
+    def get_success_url(self):
+        return reverse_lazy('todo_detail', kwargs={'pk': self.object.todo.id})
+

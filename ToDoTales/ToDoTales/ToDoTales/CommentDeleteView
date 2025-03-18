@@ -1,0 +1,17 @@
+from django.views.generic.edit import DeleteView
+from django.http import Http404
+from .models import Comment
+
+class CommentDeleteView(LoginRequiredMixin, DeleteView):
+    model = Comment
+    template_name = 'todo_confirm_delete.html'
+
+    def get_object(self, queryset=None):
+        comment = super().get_object(queryset)
+        if comment.user != self.request.user and not self.request.user.is_staff:
+            raise Http404("댓글을 삭제할 수 없습니다.")
+        return comment
+
+    def get_success_url(self):
+        return reverse_lazy('todo_list')
+
