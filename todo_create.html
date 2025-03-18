@@ -1,0 +1,15 @@
+<!-- cbv_todo_app/templates/todo_create.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Create Todo</h1>
+    
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-primary">Create Todo</button>
+    </form>
+    
+    <a href="{% url 'cbv_todo_list' %}" class="btn btn-secondary mt-4">Back to Todo List</a>
+{% endblock %}
+

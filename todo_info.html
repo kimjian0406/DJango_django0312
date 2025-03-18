@@ -1,0 +1,20 @@
+<!-- cbv_todo_app/templates/todo_info.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Todo Details</h1>
+    
+    <h2>{{ todo.title }}</h2>
+    <p><strong>Created by:</strong> {{ todo.user.username }}</p>
+    <p><strong>Content:</strong> {{ todo.content }}</p>
+    <p><strong>Created at:</strong> {{ todo.created_at }}</p>
+    
+    <a href="{% url 'cbv_todo_update' pk=todo.pk %}" class="btn btn-warning">Edit</a>
+    <form action="{% url 'cbv_todo_delete' pk=todo.pk %}" method="post" style="display:inline;">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger">Delete</button>
+    </form>
+    
+    <a href="{% url 'cbv_todo_list' %}" class="btn btn-secondary">Back to Todo List</a>
+{% endblock %}
+
