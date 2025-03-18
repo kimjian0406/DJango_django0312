@@ -1,0 +1,6 @@
+<form action="{% url 'cbv_todo_delete' pk=todo.pk %}" method="post">
+    {% csrf_token %}
+    <button type="submit">Delete</button>
+</form>
+<a href="{% url 'cbv_todo_update' pk=todo.pk %}">Edit</a>
+
