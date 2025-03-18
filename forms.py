@@ -1,13 +1,15 @@
+# todo/forms.py
+
 from django import forms
 from .models import Todo
 
 class TodoForm(forms.ModelForm):
     class Meta:
         model = Todo
-        fields = ['title', 'content', 'is_completed']  # 완료 여부 추가
+        fields = ['title', 'description', 'is_completed']
 
-class TodoUpdateForm(forms.ModelForm):
+class TodoUpdateForm(TodoForm):
     class Meta:
         model = Todo
-        fields = ['title', 'content', 'is_completed']
+        fields = ['title', 'description', 'is_completed']
 

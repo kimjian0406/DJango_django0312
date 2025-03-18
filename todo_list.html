@@ -1,0 +1,26 @@
+<!-- templates/todo/todo_list.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Your Todo List</h2>
+<ul>
+    {% for todo in page_obj %}
+    <li>
+        <a href="{% url 'todo_info' todo.id %}">{{ todo.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+
+<div>
+    <span>Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}</span>
+    <div>
+        <span>Search: </span>
+        <form method="get">
+            <input type="text" name="q" value="{{ request.GET.q }}" />
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}
+

@@ -1,13 +1,17 @@
+<!-- templates/base.html -->
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo App</title>
 </head>
 <body>
     <nav>
-        <a href="{% url 'todo_list' %}">Todo List</a>
-        <a href="{% url 'todo_create' %}">Create Todo</a>
+        <ul>
+            <li><a href="{% url 'todo_list' %}">Todo List</a></li>
+            <li><a href="{% url 'todo_create' %}">Create Todo</a></li>
+        </ul>
     </nav>
     {% block content %}
     {% endblock %}
