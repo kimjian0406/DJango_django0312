@@ -1,0 +1,14 @@
+@login_required
+def todo_update(request, todo_id):
+    todo = get_object_or_404(Todo, id=todo_id, user=request.user)
+
+    if request.method == 'POST':
+        form = TodoUpdateForm(request.POST, instance=todo)
+        if form.is_valid():
+            form.save()
+            return redirect('todo_info', todo_id=todo.id)
+    else:
+        form = TodoUpdateForm(instance=todo)
+
+    return render(request, 'todo/todo_update.html', {'form': form})
+

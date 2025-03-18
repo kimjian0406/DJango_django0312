@@ -1,0 +1,19 @@
+from django.shortcuts import render, redirect
+from .models import Todo
+from .forms import TodoForm
+from django.contrib.auth.decorators import login_required
+
+@login_required
+def todo_create(request):
+    if request.method == 'POST':
+        form = TodoForm(request.POST)
+        if form.is_valid():
+            todo = form.save(commit=False)
+            todo.user = request.user  # 로그인한 유저로 할당
+            todo.save()
+            return redirect('todo_info', todo_id=todo.id)
+    else:
+        form = TodoForm()
+
+    return render(request, 'todo/todo_create.html', {'form': form})
+

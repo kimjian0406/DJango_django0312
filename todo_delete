@@ -1,0 +1,7 @@
+@login_required
+def todo_delete(request, todo_id):
+    todo = get_object_or_404(Todo, id=todo_id, user=request.user)
+    todo.delete()
+    return redirect('todo_list')
+
+
