@@ -1,8 +1,0 @@
-# TodoDetailView에서 prefetch_related 사용
-from django.shortcuts import render
-from .models import Todo
-
-def todo_detail(request, pk):
-    todo = Todo.objects.prefetch_related('comments').get(pk=pk)
-    return render(request, 'todo/todo_detail.html', {'todo': todo})
-
