@@ -1,0 +1,22 @@
+{% extends 'base_generic.html' %}
+{% block content %}
+<h1>Todo List</h1>
+
+<div class="list-group">
+    {% for todo in todos %}
+        <div class="list-group-item">
+            <img src="{{ todo.thumbnail.url }}" alt="Thumbnail" width="50">
+            <h5>{{ todo.title }}</h5>
+            <p>{{ todo.description }}</p>
+            {% if todo.is_completed %}
+                <span class="badge bg-success">Completed</span>
+            {% else %}
+                <span class="badge bg-warning">In Progress</span>
+            {% endif %}
+            <div class="mt-2">
+                <a href="{% url 'todo_update' todo.pk %}" class="btn btn-primary btn-sm">Edit</a>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}
