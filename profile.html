@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}내 프로필{% endblock %}
+
+{% block content %}
+<h1>내 프로필</h1>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">프로필 수정</button>
+</form>
+{% endblock %}
+

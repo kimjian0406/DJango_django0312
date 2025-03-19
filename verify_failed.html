@@ -1,0 +1,16 @@
+<!-- templates/users/verify_failed.html -->
+{% extends 'base.html' %}
+{% block content %}
+    <h2>Email Verification Failed</h2>
+    <p>The verification link has expired or is invalid. Please try again.</p>
+{% endblock %}
+
+{% extends 'base.html' %}
+
+{% block title %}이메일 인증 실패{% endblock %}
+
+{% block content %}
+<h1>이메일 인증에 실패했습니다.</h1>
+<p>인증 링크가 만료되었거나 잘못된 접근입니다.</p>
+{% endblock %}
+

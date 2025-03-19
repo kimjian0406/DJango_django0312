@@ -1,0 +1,16 @@
+from django.contrib.auth.forms import AuthenticationForm
+from django.contrib.auth.views import LoginView
+from django.urls import reverse_lazy
+from django.http import HttpResponseRedirect
+from django.contrib.auth import authenticate, login
+
+class LoginView(LoginView):
+    form_class = AuthenticationForm
+    template_name = 'registration/login.html'
+
+    def form_valid(self, form):
+        # 로그인 처리
+        user = form.get_user()
+        login(self.request, user)
+        return HttpResponseRedirect(reverse_lazy('todo_list'))
+

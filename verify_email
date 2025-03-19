@@ -1,0 +1,53 @@
+from django.shortcuts import render
+from django.core.signing import TimestampSigner, BadSignature
+from django.http import HttpResponse
+from django.contrib.auth import get_user_model
+from django.contrib.sites.shortcuts import get_current_site
+from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
+
+def verify_email(request, signed_data):
+    signer = TimestampSigner()
+    try:
+        email = signer.unsign(signed_data, max_age=3600)  # 인증 코드 유효 시간 1시간
+    except BadSignature:
+        return render(request, 'registration/verify_failed.html')
+    
+    try:
+        user = get_user_model().objects.get(email=email)
+    except get_user_model().DoesNotExist:
+        return render(request, 'registration/verify_failed.html')
+
+    user.is_active = True
+    user.save()
+
+    return render(request, 'registration/verify_success.html')
+
+from django.contrib.auth.views import PasswordChangeView, PasswordChangeDoneView
+from django.urls import path
+
+urlpatterns = [
+    path('password_change/', PasswordChangeView.as_view(), name='password_change'),
+    path('password_change_done/', PasswordChangeDoneView.as_view(), name='password_change_done'),
+]
+
+from django.core.signing import TimestampSigner, BadSignature, SignatureExpired
+
+def generate_signer_token(email):
+    signer = TimestampSigner()
+    return signer.sign(email)
+
+def verify_email(request):
+    code = request.GET.get('code')
+    signer = TimestampSigner()
+    
+    try:
+        email = signer.unsign(code, max_age=3600)  # 1시간 제한
+        user = CustomUser.objects.get(email=email)
+        user.is_active = True
+        user.save()
+        return render(request, 'verify_success.html')
+    except SignatureExpired:
+        return render(request, 'verify_failed.html', {'error': '인증 시간이 만료되었습니다.'})
+    except BadSignature:
+        return render(request, 'verify_failed.html', {'error': '잘못된 인증 코드입니다.'})
+
