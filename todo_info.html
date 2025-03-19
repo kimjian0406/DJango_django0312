@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>{{ todo.title }}</h2>
+<p>{{ todo.description }}</p>
+
+<h3>댓글</h3>
+<div id="comment-list">
+    {% for comment in page_obj %}
+    <div class="comment">
+        <strong>{{ comment.user.username }}</strong>
+        <p>{{ comment.message }}</p>
+        {% if comment.user == user or user.is_staff %}
+        <a href="{% url 'comment_update' pk=comment.pk %}" class="btn btn-warning">수정</a>
+        <a href="{% url 'comment_delete' pk=comment.pk %}" class="btn btn-danger">삭제</a>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+
+<div class="pagination">
+    {% include 'pagination.html' %}
+</div>
+
+<h4>댓글 작성</h4>
+<form method="post">
+    {% csrf_token %}
+    {{ comment_form.as_p }}
+    <button type="submit" class="btn btn-primary">댓글 등록</button>
+</form>
+{% endblock %}
