@@ -1,0 +1,36 @@
+<!-- task_list.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task List</title>
+</head>
+<body>
+    <h1>Task List</h1>
+    <ul>
+        {% for task in tasks %}
+            <li>{{ task.title }} - {% if task.completed %} Completed {% else %} Pending {% endif %}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
+<!-- task_list.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task List</title>
+</head>
+<body>
+    <h1>Task List</h1>
+    <ul>
+        {% for task in tasks %}
+            <li>{{ task.title }} - {% if task.completed %} Completed {% else %} Pending {% endif %}
+                <a href="{% url 'task_update' task.id %}">Edit</a> |
+                <a href="{% url 'task_delete' task.id %}">Delete</a>
+            </li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'task_create' %}">Create New Task</a>
+</body>
+</html>
+

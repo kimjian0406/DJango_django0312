@@ -1,0 +1,35 @@
+<!-- todo_list.html -->
+<a href="{% url 'cbv_todo_create' %}">Create Todo</a>
+
+{% block content %}
+    <h1>Todo List</h1>
+
+    <ul>
+        {% for todo in object_list %}
+            <li>
+                <a href="{% url 'cbv_todo_detail' pk=todo.pk %}">{{ todo.title }}</a>
+                <a href="{% url 'cbv_todo_update' pk=todo.pk %}">Edit</a>
+                <form action="{% url 'cbv_todo_delete' pk=todo.pk %}" method="POST">
+                    {% csrf_token %}
+                    <button type="submit">Delete</button>
+                </form>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <div>
+        <a href="{% url 'cbv_todo_create' %}">Create New Todo</a>
+    </div>
+
+    <div>
+        {% if is_paginated %}
+            <span>Page: </span>
+            <span class="page-links">
+                {% for page_num in paginator.page_range %}
+                    <a href="?page={{ page_num }}">{{ page_num }}</a>
+                {% endfor %}
+            </span>
+        {% endif %}
+    </div>
+{% endblock %}
+

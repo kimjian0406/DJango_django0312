@@ -1,0 +1,10 @@
+<!-- todo_info.html -->
+<h1>{{ todo.title }}</h1>
+<p>Created by: {{ username }}</p>  <!-- username 표시 -->
+<p>{{ todo.created_at }}</p>
+
+<form method="POST" action="{% url 'cbv_todo_delete' pk=todo.pk %}">
+    {% csrf_token %}
+    <button type="submit">Delete</button>
+</form>
+
