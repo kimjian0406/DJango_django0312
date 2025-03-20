@@ -1,0 +1,53 @@
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        {% for image in post.postimage_set.all %}
+            <div class="swiper-slide">
+                <img src="{{ image.image.url }}" alt="Post Image">
+            </div>
+        {% endfor %}
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+</div>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+</script>
+<div class="comments">
+    <h3>Comments</h3>
+    {% for comment in comments %}
+        <div class="comment">
+            <strong>{{ comment.author }}</strong>
+            <p>{{ comment.content }}</p>
+            <small>{{ comment.created_at }}</small>
+        </div>
+    {% empty %}
+        <p>No comments yet.</p>
+    {% endfor %}
+</div>
+
+<h3>Leave a Comment</h3>
+<form method="POST">
+    {% csrf_token %}
+    {{ comment_form.as_p }}
+    <button type="submit">Submit</button>
+</form>
+<div class="tags">
+    <strong>Tags: </strong>
+    {% for tag in post.tags.all %}
+        <span>{{ tag.name }}</span>
+    {% endfor %}
+</div>
+{% if post.is_private %}
+    <p>This post is private.</p>
+{% else %}
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.content }}</p>
+{% endif %}

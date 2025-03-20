@@ -1,0 +1,15 @@
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ post_form.as_p }}
+
+    {{ image_formset.management_form }}
+
+    {% for form in image_formset %}
+        <div class="form-row">
+            {{ form.as_p }}
+        </div>
+    {% endfor %}
+
+    <button type="submit">저장</button>
+</form>
+

@@ -1,0 +1,67 @@
+<!-- blog/templates/blog/post_list.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post List</title>
+</head>
+<body>
+    <h1>Post List</h1>
+    <ul>
+        {% for post in posts %}
+            <li>
+                <a href="#">{{ post.title }}</a><br>
+                <small>{{ post.created_at }}</small>
+                <p>{{ post.content|truncatewords:30 }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
+<ul id="post-list">
+    {% for post in posts %}
+        <li>
+            <a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a>
+            <p>{{ post.content|truncatewords:30 }}</p>
+        </li>
+    {% endfor %}
+</ul>
+
+<div id="load-more" style="text-align:center; padding: 20px; display:none;">
+    <button>Load More</button>
+</div>
+
+<script>
+    var waypoint = new Waypoint({
+        element: document.getElementById('load-more'),
+        handler: function(direction) {
+            if (direction === 'down') {
+                // AJAX 요청을 통해 포스트를 추가로 불러옵니다.
+                fetch('/load-more-posts/')
+                    .then(response => response.json())
+                    .then(data => {
+                        const postList = document.getElementById('post-list');
+                        data.posts.forEach(post => {
+                            const postItem = document.createElement('li');
+                            postItem.innerHTML = `<a href="/post/${post.id}/">${post.title}</a><p>${post.content}</p>`;
+                            postList.appendChild(postItem);
+                        });
+                    });
+            }
+        },
+        offset: 'bottom-in-view'
+    });
+</script>
+<h2>Recent Posts</h2>
+<ul>
+    {% for post in recent_posts %}
+        <li><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+{% for post in posts %}
+    {% if not post.is_private %}
+        <li><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></li>
+    {% endif %}
+{% endfor %}
